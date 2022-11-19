@@ -22,4 +22,4 @@ Muestra el estado actual de los cambios dentro del repositorio
 Creates a checkpoint in time with a version of your file
 - `git commit -m "A relevant message to identify your commit"` -> This will generate an identifier that Will
 be used to identify your changes at certain point
-- `git commit -am "Another relevant message"` 
+- `git commit -am "Another relevant message"` This is similar to `git add .` and `git commit -m "message"` 
