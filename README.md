@@ -1,15 +1,14 @@
 # Git basics
 
-- Manejador de versiones, que se encarga de mantener un registro de todos los cambios dentro de un 
-repositorio (Folder)
-- Un sistema distribuido
-- Repo local != repo remoto
+- Control version manager for a repository
+- Distributed system
+- Local repo != remote repo
 
 ## Git init
 Initializes a local git repository
 
 ## Git status
-Muestra el estado actual de los cambios dentro del repositorio
+Shows the un-commited changes in your repository
 
 ## Git add
 - Add a file to git: `git add [file-name]` it will start tracking the changes in the file
@@ -23,3 +22,13 @@ Creates a checkpoint in time with a version of your file
 - `git commit -m "A relevant message to identify your commit"` -> This will generate an identifier that Will
 be used to identify your changes at certain point
 - `git commit -am "Another relevant message"` This is similar to `git add .` and `git commit -m "message"` 
+
+## Git remote
+Tells your local repository to add a remote location to track your changes when you push them
+- `git remote add origin [origin-location]` eg. `git remote add origin git@github.com:ferseg/git-basics.git`
+
+## Git push
+Pushes your local changes to the remote
+- `git push -u origin [branch-name]` eg. `git push -u origin main`
+
+
