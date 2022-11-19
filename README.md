@@ -6,7 +6,7 @@ repositorio (Folder)
 - Repo local != repo remoto
 
 ## Git init
-Inicializa un repositorio local
+Initializes a local git repository
 
 ## Git status
 Muestra el estado actual de los cambios dentro del repositorio
