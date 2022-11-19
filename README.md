@@ -20,5 +20,6 @@ Muestra el estado actual de los cambios dentro del repositorio
 
 ## Git commit
 Creates a checkpoint in time with a version of your file
-- `git commit -m "A relevant message to identify your commit"`
-
+- `git commit -m "A relevant message to identify your commit"` -> This will generate an identifier that Will
+be used to identify your changes at certain point
+- `git commit -am "Another relevant message"` 
