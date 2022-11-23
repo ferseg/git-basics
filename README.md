@@ -20,7 +20,7 @@ Shows the un-commited changes in your repository
   - `git add .` Will track every change and new file to 
 
 ## [Git commit](https://git-scm.com/docs/git-commit)
-Creates a checkpoint in time with a version of your file
+Creates a checkpoint in time with a version of everything that has been added at that point
 - `git commit -m "A relevant message to identify your commit"` -> This will generate an identifier that Will
 be used to identify your changes at certain point
 - `git commit -am "Another relevant message"` This is similar to `git add .` and `git commit -m "message"` 
