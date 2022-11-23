@@ -33,4 +33,6 @@ Tells your local repository to add a remote location to track your changes when 
 Pushes your local changes to the remote
 - `git push -u origin [branch-name]` eg. `git push -u origin main`
 
-
+## [Git merge](https://git-scm.com/docs/git-merge)
+Merges the content from another branch into my current branch
+- `git merge [branchName]`: Merge the contents from `branchName` into my current branch
