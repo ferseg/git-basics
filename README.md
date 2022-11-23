@@ -42,6 +42,10 @@ Creates a new "workspace", this space will not affect the main branch unless it 
 Merges the content from another branch into my current branch
 - `git merge [branchName]`: Merge the contents from `branchName` into my current branch
 
+## [Git diff](https://git-scm.com/docs/git-diff)
+Compares against a branch
+- `git diff [branchName]`: Compares the changes in my current branch with `branchName`
+
 ## [Git pull](https://git-scm.com/docs/git-pull)
 Pulls the content of a remote branch
 - `git pull origin [branchName]`: Gets the contents of `branchName`
