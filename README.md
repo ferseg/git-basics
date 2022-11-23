@@ -33,6 +33,11 @@ Tells your local repository to add a remote location to track your changes when 
 Pushes your local changes to the remote
 - `git push -u origin [branch-name]` eg. `git push -u origin main`
 
+## [Git branch](https://git-scm.com/docs/git-branch)
+Creates a new "workspace", this space will not affect the main branch unless it is merged
+- `git branch [branchName]`: Creates a new branch
+- `git banch`: Lists all the branches
+
 ## [Git merge](https://git-scm.com/docs/git-merge)
 Merges the content from another branch into my current branch
 - `git merge [branchName]`: Merge the contents from `branchName` into my current branch
