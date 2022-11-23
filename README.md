@@ -1,3 +1,14 @@
+# Git basics
+
+- Version control manager, it manages all versions for the files inside a repository (a folder)
+- Distributed system
+- Local repo != remote repo
+
+## [Git init](https://git-scm.com/docs/git-init)
+Initializes a local git repository
+
+This will allow you to tell git to start tracking your current folder as a repository
+
 ## [Git status](https://git-scm.com/docs/git-status)
 Shows the un-commited changes in your repository
 
