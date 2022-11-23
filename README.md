@@ -36,3 +36,4 @@ Pushes your local changes to the remote
 ## [Git branch](https://git-scm.com/docs/git-branch)
 Creates a new "workspace", this space will not affect the main branch unless it is merged
 - `git branch [branchName]`: Creates a new branch
+- `git banch`: Lists all the branches
